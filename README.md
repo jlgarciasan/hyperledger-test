@@ -161,7 +161,7 @@ In this case the client is deployed only in Organization 1 in the Peer 0.
 
 It is also necessary necessary to change the hosts and the paths of the crypto materials.
 
-### [base/peer-base.yaml](#base-peer-base)
+### base/peer-base.yaml
 We must pay attention to this file. Make sure that this property has the correct network name:
 
 ```
@@ -220,7 +220,7 @@ Now, you have an environment to deploy and to interact chaincodes. It's very imp
 ```
 docker inspect "name_of_a_peer_container
 ```
-At this point you must check the name of the network configured in [base/peer-base.yaml](#base-peer-base).
+At this point you must check the name of the network configured in [base/peer-base.yaml](#base/peer-base.yaml).
 
 ### Delete and modify the network
 With every change in the configuration it is necessary to execute the following command:
